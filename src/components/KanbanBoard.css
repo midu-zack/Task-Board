@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d7abf;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .kanban-container {
+    padding-top: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .kanban-column {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column-header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .add-task-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .add-task-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-task-form input {
+    padding: 17px 60px;
+    border: none;
+    border-radius: 19px;
+    margin-left: 10px;
+    background-color: #555;
+    color: white;
+  }
+  
+  .add-task-form .add-button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 17px;
+    cursor: pointer;
+  }
+  
+  .kanban-task {
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
