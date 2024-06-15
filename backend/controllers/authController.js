@@ -24,7 +24,7 @@ const loginUser = async (req, res) => {
 
 
  const signupUser = async (req, res) => {
-  console.log('Signup request:', req.body);
+  // console.log('Signup request:', req.body);
   const { username, email, password } = req.body;
   try {
     const existingUser = await User.findOne({ email });
